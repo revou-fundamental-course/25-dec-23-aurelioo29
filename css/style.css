@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+}
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  color: #333;
+  font-size: 30px;
+}
+
+header > h2 {
+  color: #555;
+  font-size: medium;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #217dbb;
+}
+
+/* Section Keliling */
+#hitungKeliling {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+#hitungKeliling > h1 {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  background-color: #2ecc71;
+  color: #163020;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #27b061;
+}
+
+input[type="reset"] {
+  background-color: #ff9800;
+  color: #820300;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #e28700;
+}
+
+#operasiKeliling,
+#resultKeliling {
+  font-size: 20px;
+  font-weight: bold;
+  color: #217dbb;
+  margin-bottom: 10px;
+}
+
+.hitungKeliling>form>label{
+  padding-top: 5px
+}
+
+#operasiKeliling{
+  padding-top: 5px;
+}
+
+/* Section Luas */
+#hitungLuas {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+#hitungLuas > h1 {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  background-color: #2ecc71;
+  color: #163020;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #27b061;
+}
+
+input[type="reset"] {
+  background-color: #ff9800;
+  color: #820300;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #e28700;
+}
+
+#operasiLuas,
+#resultLuas {
+  font-size: 20px;
+  font-weight: bold;
+  color: #217dbb;
+  margin-bottom: 10px;
+}
+
+.hitungLuas>form>label{
+  padding-top: 5px
+}
+
+#operasiLuas{
+  padding-top: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang di Kalkulator Matematika Segitiga</h1>
+      <h2>Apa yang dibutuhkan??</h2>
+      <button id="kelilingBtn">Hitung Keliling Segitiga</button>
+      <button id="luasBtn">Hitung Luas Segitiga</button>
+    </header>
+
+    <section id="hitungKeliling">
+      <h1>Keliling Segitiga</h1>
+      <img src="img/keliling.png" alt="" />
+      <form action="">
+        <label>Sisi 1</label>
+        <input type="number" id="sisi1" placeholder="Masukkan Sisi-1" />
+        <br />
+        <label>Sisi 2</label>
+        <input type="number" id="sisi2" placeholder="Masukkan Sisi-2" />
+        <br />
+        <label>Sisi 3</label>
+        <input type="number" id="sisi3" placeholder="Masukkan Sisi-3" />
+        <br />
+        <div id="operasiKeliling"></div>
+        <div id="resultKeliling"></div>
+
+        <br />
+        <input
+          onclick="Keliling()"
+          type="button"
+          name="submit"
+          value="HITUNG"
+        />
+        <input
+          onclick="resetKeliling()"
+          type="reset"
+          name="reset"
+          value="RESET"
+        />
+      </form>
+    </section>
+
+    <section id="hitungLuas">
+      <h1>Luas Segitiga</h1>
+      <img src="img/luas.jpg" alt="" />
+      <form action="">
+        <label>Alas</label>
+        <input type="number" id="alas" placeholder="Masukkan Alas" />
+        <br />
+        <label>Tinggi</label>
+        <input type="number" id="tinggi" placeholder="Masukkan Tinggi" />
+        <br />
+        <div id="operasiLuas"></div>
+        <div id="resultLuas"></div>
+
+        <br />
+        <input onclick="Luas()" type="button" name="submit" value="HITUNG" />
+        <input onclick="resetLuas()" type="reset" name="reset" value="RESET" />
+      </form>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
